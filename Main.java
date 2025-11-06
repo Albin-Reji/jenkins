@@ -5,5 +5,9 @@ class Main {
         System.out.println("This is Java Main class ");
         System.out.println("test: jenkin pipeline");
         System.err.println(new Date());
+        getJenkins();
+    }
+    public static void getJenkins(){
+        System.out.println("Jenkin Project Executed...");
     }
 }
