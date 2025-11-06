@@ -6,6 +6,8 @@ class Main {
         System.out.println("test: jenkin pipeline");
         System.err.println(new Date());
         getJenkins();
+        Init init=new Init("Albin");
+        System.err.println(init.getName());
     }
     public static void getJenkins(){
         System.out.println("Jenkin Project Executed...");
